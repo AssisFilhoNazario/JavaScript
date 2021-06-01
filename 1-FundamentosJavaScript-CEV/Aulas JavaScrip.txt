@@ -1,0 +1,247 @@
+Javascript - Aulas
+Aula05- Variaveis e Tipos Primitivos
+/*Comentarios para multiplas linhas 
+        -IDENTIFICADORES-
+        1- Podem começar com LETRA , $ ou _
+        2- Não podem começar com NÚMEROS
+        3- É possível usar LETRAS, ou NÚMEROS
+        4- É possível usar ACENTOS e SÍMBOLOS
+        5- Não podem conter ESPAÇOS
+        6- Não podem ser PALAVRAS RESERVADAS 
+    */
+
+    //COMENTARIO PARA UMA LINHA
+    <!--Comentario HTML-->
+    /*Comentario em CSS*/ 
+
+
+    //DICAS
+
+    /*  1. MAIÚSCALAS e MINÚSCULAS fazem diferenças
+        2. Tente escolher NOMES COERENTES para as variáveis
+        3. Eivite se tornar um 'PROGRAMADOR ALFABETO' ou um 'PROGRAMADOR CONTADOR'
+        
+    
+    
+    */
+
+Aula06 - Trtamentos de Dados 
+    //TRATAMENTOS DE DADOS 
+    // OBS: String(n) ou n.toString()
+    //  var n1 = Number.parseInt(window.prompt('Digite um numero'))
+    //  var n2 = Number.parseInt(window.prompt('Digite um outro numero'))
+
+    //   var n1 = Number.parseFloat(window.prompt('Digite um numero'))
+    //   var n2 = Number.parseFloat(window.prompt('Digite um outro numero'))
+
+       var n1 = Number(window.prompt('Digite um numero'))
+       var n2 = Number(window.prompt('Digite um outro numero'))
+      
+       var soma = n1 + n2
+       //window.alert('A soma dos numeros '+ n1 + ' e ' + n2 + ' é: ' + soma)
+       window.alert(`A soma dos numeros ${n1} e ${n2} é ${soma}`)// Plesholder
+       //(number +  number) para adição
+       //(string + string) para concatenação
+
+Aula07 - 
+A) Operadores Aritimeticos 
+5 + 2 = 7
+5 - 2 = 3
+5 * 2 = 10
+5 / 2 = 2.5
+5 % 2 = 7 (resta 1- resto da divisão)
+5 ** 2 = 20 (potencia 5 ao quadrado)
+B) Ordem de Precedencia dos Operadores Aritimeticos
+()
+**
+*/%
++-
+C) Auto-atribuições
+var n = 3      	    
+n = n + 4 = 7	
+n = n - 5 = 2		
+n = n * 4 = 8	
+n = n / 2 = 4	
+n = n ** 2 = 16 
+n = n % 5 = 1	
+--- pode ser feito de forma Simplificada----------
+var n= 3
+n+= 4 resultado 7 
+n-= 5 resultado 2 
+n*= 4 resultado 8 
+n/= 2 resultado 4 
+n**= 2 resultado 16 
+n%= 5 resultado 1 
+D) Incremento 
+var x = 5
+x = x + 1 = 6
+x = x - 1 = 5
+
+Simplificando
+x+=1
+x-=1
+
+Usar o incremento
+x++
+x--
+Aula08 Operadores Relacionais
+5 > 2 = true
+7 < 4 = false
+8 >= 8 = true
+9 <= 7 = false
+5 == 5 = true
+4 != 4 = false
+A) Identidade 
+5 == 5 = true
+5 == '5' true 
+5 === '5' false (com 3 iguais ele compara se o valor e igual e do mesmo tipo (identico))
+
+B) Operação Logicos 
+! negação
+%% conjunção
+|| disjunção
+
+Precedencia 
+Ordem
+1. () * / ...
+2. >< >= ...
+3.!
+&&
+||
+
+D) Ternário ? :
+Ex: medeia>=7.0 ? "Aprovado":"Reprovado"
+
+Aula 09- 10
+DOM - Document Object Model 
+TECNICAS: TagName, ID, Name, ClassName, querySelector
+
+Função: É um conjunto de codigos que irão ser executadas, somente quando o evento ocorrer/chamar.
+function acao(parametros){
+//bloco de codigo
+}
+Aula 11 Condições em JS
+CONDIÇÃO SIMPLES
+if(condição){
+	true
+}
+
+CONDIÇÃO COMPOSTA
+
+if(condição){
+	true	
+}else{
+	false	
+
+}
+
+Aula 12 Condições Aninhadas
+
+if(condicao){
+	bloco1
+}else{
+
+	if(cond2){
+		Bloco2 
+	
+	}else{
+	//bloco
+
+	}
+}
+A) Condição Multipla
+switch (expresao){
+	case valor1:
+		break:
+
+	case valor2:
+		break:
+
+	case valor3:
+		break:
+	case valor4:
+
+	defout:
+		break:
+}
+
+Aula 13 Parte 1: Repetição/ laços
+A) while (condicao){
+	
+}
+
+B) do {
+
+} while(condição)
+
+
+Aula 14 Parte 2:  Estrutura de repetição com variavel de controle (FOR)
+for(inicio; teste;incr){
+
+}
+
+Aula 15: Variaveis Compostas (Arrays)
+
+Um array ou vertor, ou variavel composta é uma variavel que tem varios elementos
+onde cada elemento é composto por seu valor e chave de identificação.
+
+Aula 16: Funções em JS
+
+Funções: São AÇÕES executadas assim que sao CHAMADAS, ou em decorrência de algum EVENTO.
+
+Uma FUNÇÃO pode receber PARÂMETROS e retornar um RESULTADO.
+
+Aula 17: Proximos Passos : Objetos
+Resumo:
+1.Fundamentos 
+2.Variáveis de Dados 
+3.Operadores
+4.Condições
+5.Repetições
+6.Arrays
+7.Functions
+8.DOM
+AGORA PROXIMOS PASSOS?
+DICAS
+1.Functions
+2.Objetos
+3.Modularização
+4.RegEX
+5.Json
+6.Ajax
+7.NodeJS
+
+
+Obejtos 
+let amigo {nome:'Jose',sexo:'M',pesp:'85.4', engordar(p){}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

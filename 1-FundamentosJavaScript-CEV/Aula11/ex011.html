@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pais</title>
+</head>
+<body>
+    Qual o seu país? <input type="text" name="txtnm" id="txtnm">
+    <input type="button" value="Veficar" onclick=verificaPais()>
+    <div id="res"></div>
+
+    <script>
+        function verificaPais() {
+            var nomePais = window.document.getElementById('txtnm')
+            var resultado = window.document.getElementById('res')
+            var pais = String(nomePais.value)
+            
+            if (pais == 'Brasil') {
+                resultado.innerHTML = `Voce é Brasileira.`
+            } else {
+                resultado.innerHTML = `Voce é Estrangeira.`
+            }
+
+            
+        }
+
+
+    </script>
+    
+</body>
+</html>
